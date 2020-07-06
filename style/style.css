@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 375px;
+    margin: auto;
+}
+
+/*header*/
+.files {
+    max-width: 100%;
+    height: 800px;
+    background-color: rgba(182, 97, 234, 0.03);
+}
+
+.header-files {
+    width: 375px;
+    height: 70px;
+}
+
+.fylo-header {
+    width: 50px;
+    float: left;
+}
+.header-menu {
+    float: right;
+
+    display: flex;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.features {
+    margin-right: 15px;
+}
+
+.team {
+    margin-right: 15px;
+}
+
+.signin {
+
+}
+
+.fylo-header {
+    width: 100px;
+    margin: 15px 0 0 15px;
+}
+
+.files-img {
+    width: 100%;
+}
+
+.files-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+
+    width: 280px;
+    height: 120px;
+
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.header-stores {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+    margin-top: 0;
+}
+
+.enter-email {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.btn-get-started {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+
+    margin-top: 30px;
+
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+
+    background-color: #1935e8;
+    color: white;
+}
+
+.section-productive {
+    max-width: 100%;
+    height: 1000px;
+
+    background-color: rgba(182, 97, 234, 0.03);
+}
+
+.img-productive {
+    width: 100%;
+
+    margin-top: 70px;
+}
+
+.text-header-productive {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+
+    width: 300px;
+    height: 50px;
+
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.text-section-productive {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+    margin-top: 0;
+
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.fylo-works {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: green;
+
+    /*text-decoration: underline;*/
+
+    text-decoration: underline;
+}
+
+.icon-arrow {
+    width: 20px;
+}
+
+.kyle-burton {
+    width: 340px;
+    height: 210px;
+    background-color: #ffffff;
+
+    margin: 45px auto 20px auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 3%;
+
+}
+
+.kyle-text {
+    width: 310px;
+    height: 90px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.kyle-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+/*header*/
+
+
+
+/*footer*/
+
+.fylo-footer {
+    padding-top: 30px;
+
+    width: 100%;
+    height: 350px;
+    background-color: #1b4a93;
+}
+
+
+.get-access {
+    text-align: center;
+
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.get-access-text {
+    width: 270px;
+    height: 90px;
+    margin-left: 55px;
+    text-align: center;
+
+    color: white;
+}
+
+
+.get-access-email {
+    width: 250px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+    margin: auto;
+
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.27);
+
+    border-radius: 3%;
+}
+
+.get-started-free {
+    font-size: 16px;
+
+    width: 250px;
+    height: 40px;
+
+    margin: 15px auto auto auto;
+
+    background-color: rgb(0, 39, 255);
+    color: rgb(255, 255, 255);
+
+    border-radius: 3%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-about {
+    width: 100%;
+    height: 490px;
+    background-color: #121249;
+}
+
+
+.footer-logo {
+    margin: 40px auto auto 30px;
+    color: white;
+}
+
+
+.footer-phone-email {
+    margin: 40px auto auto 30px;
+}
+
+.social-icon {
+    width: 100px;
+    margin: auto;
+}
+
+.footer-phone-email {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.i {
+    color: white;
+}
+
+.social-icon i {
+    color: white;
+}
+
+.about-us {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.jobs {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.press {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.blog {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.contact-us {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.terms {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.privacy {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
